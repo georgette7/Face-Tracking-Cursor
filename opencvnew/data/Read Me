@@ -1,0 +1,12 @@
+Description and Warning:
+
+
+Description:
+
+The HAAR cascade components are used in Face Detect, where they decide what constitutes a head and eyes.
+
+You can test this by drawing a simple face on a piece of paper. If it's not realistic enough, it will actually not be detected.
+
+Warning:
+
+Do not attempt to change the path to the components without simultaneously altering the relavent code in HeadPoseVtry.
