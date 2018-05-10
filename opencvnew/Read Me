@@ -1,0 +1,3 @@
+Explanation for mylib:
+
+The reason mylib has so many files is, it's hard to determine which ones are needed for the code to compile, since I have two different versions of Opencv on my laptop. When I deleted the libraries of previous versions, I got lots of errors. It could have something to do with the Cmake files.  
