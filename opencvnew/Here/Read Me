@@ -1,0 +1,16 @@
+How to Compile:
+
+(in Linux from terminal)
+
+
+From terminal opened in Here:
+
+g++ -I/PATH/opencvnew/Here -L/PATH/opencvnew/mylib/ -g -o headV HeadPoseVtry.cpp faceDetect.cpp -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_features2d -lopencv_calib3d -lopencv_objdetect
+
+
+Functional example:
+
+g++ -I/home/georgette/Desktop/opencvnew/Here -L/home/georgette/Desktop/opencvnew/mylib/ -g -o headV HeadPoseVtry.cpp faceDetect.cpp -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_features2d -lopencv_calib3d -lopencv_objdetect*
+
+*/home/georgette/Desktop/ = PATH -->substitute with the path where you saved opencvnew
+
